@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Scala/SBT
+target/
+project/target/
+.bsp/
+.metals/
+.bloop/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Elasticsearch data (if running locally without Docker)
+data/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
